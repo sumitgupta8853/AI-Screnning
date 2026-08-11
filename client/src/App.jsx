@@ -3,7 +3,7 @@ import Landing from "./components/Landing.jsx";
 import CallScreen from "./components/CallScreen.jsx";
 import ReportScreen from "./components/ReportScreen.jsx";
 
-const WS_URL = import.meta.env.VITE_WS_URL || "ws://localhost:8787/call";
+const WS_URL = import.meta.env.VITE_WS_URL || "ws://ai-screnning.onrender.com/call";
 
 export default function App() {
   const [screen, setScreen] = useState("landing"); // landing | connecting | call | report
